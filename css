@@ -1,0 +1,26 @@
+body {
+  /*
+  background-image: url(./assets/assets/bg-mobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;*/
+
+  /*background color image repeat sizer/position */
+  background: url(./assets/assets/bg-mobile.jpg) no-repeat top center/cover;
+}
+body * {
+  font-family: "Inter", sans-serif;
+  color: var(--text-color);
+}
+
+#container {
+  width: 360px;
+  /*border: 1px solid white;*/
+  margin: auto;
+}
+#profile {
+  text-align: center;
+}
+#profile img {
+  width: 112px;
+}
